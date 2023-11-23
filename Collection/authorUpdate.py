@@ -45,8 +45,8 @@ loginUrl = 'https://www.kci.go.kr/kciportal/po/member/popup/loginForm.kci'
 driver.get(loginUrl)
 
 # 2. 로그인 정보
-username = 'tomoo56'
-password = 'kmhalsgml1!'
+username = '*******'
+password = '***********'
 
 # 3. 로그인 정보 입력 및 전송
 userID = driver.find_element(By.NAME, "uid")
